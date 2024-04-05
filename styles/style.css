@@ -215,8 +215,6 @@
   filter: saturate(200%);
 }
 
-
-
 .card__wrapper {
   display: grid;
   padding: 25px;
@@ -244,7 +242,7 @@
 
 .card__icon-button:focus-visible {
   outline: var(--border);
-  transition: all 0.3s ease;
+  transition: outline 0.3s ease;
 }
 
 .button {
