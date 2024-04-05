@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P', fantasy;
+    --title-weight: 700;
+    --text-weight: 400;
+    --background-color: #fff;
+    --accent-color: var(--background-color);
+    --font-color: #000;
+    --invert-color: #fff;
+    --theme-gradient-color-1: #d3d3d3;
+    --theme-gradient-color-2: #e7e7e7;
+    --theme-gradient-color-3: #1a1a1a;
+    --block-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --border: 2px solid var(--font-color);
+    --heart-color: #f00;
+}
