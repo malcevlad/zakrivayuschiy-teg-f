@@ -15,7 +15,7 @@
 
 @keyframes arrow {
     100% {
-        left: -11px;
+        inset-inline-start: -11px;
     }
 }
 
